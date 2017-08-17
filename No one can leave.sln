@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3281148A-1F46-7FA1-369B-E61C0F2C742C}") = "No one can leave", "Assembly-CSharp-firstpass.csproj", "{5C5D6773-6AA3-13B3-A311-F3D96B6430B0}"
+EndProject
+Project("{3281148A-1F46-7FA1-369B-E61C0F2C742C}") = "No one can leave", "Assembly-CSharp.csproj", "{9A4BBC90-A82A-6DF8-5555-90EB631D4876}"
+EndProject
+Project("{3281148A-1F46-7FA1-369B-E61C0F2C742C}") = "No one can leave", "Assembly-CSharp-Editor.csproj", "{3A7068F6-C213-7F05-DE34-08EEEC5C140C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C5D6773-6AA3-13B3-A311-F3D96B6430B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5D6773-6AA3-13B3-A311-F3D96B6430B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5D6773-6AA3-13B3-A311-F3D96B6430B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5D6773-6AA3-13B3-A311-F3D96B6430B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4BBC90-A82A-6DF8-5555-90EB631D4876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4BBC90-A82A-6DF8-5555-90EB631D4876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4BBC90-A82A-6DF8-5555-90EB631D4876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4BBC90-A82A-6DF8-5555-90EB631D4876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7068F6-C213-7F05-DE34-08EEEC5C140C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7068F6-C213-7F05-DE34-08EEEC5C140C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7068F6-C213-7F05-DE34-08EEEC5C140C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7068F6-C213-7F05-DE34-08EEEC5C140C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

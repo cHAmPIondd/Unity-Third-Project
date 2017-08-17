@@ -1,0 +1,1356 @@
+fileFormatVersion: 2
+guid: 5c52fbf7b35a1de4695da9adf0459a90
+timeCreated: 1491018324
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_left_bone1
+    100002: arm_left_bone2
+    100004: arm_right_bone1
+    100006: arm_right_bone2
+    100008: behind_side_bone
+    100010: behind_side_bone_end
+    100012: body
+    100014: body_bone
+    100016: controller_armor_side
+    100018: controller_body
+    100020: controller_body_dummy
+    100022: controller_head
+    100024: controller_horse
+    100026: controller_horse_head
+    100028: controller_left_behind_horse_leg
+    100030: controller_left_behind_horse_shoe
+    100032: controller_left_foot
+    100034: controller_left_front_horse_leg
+    100036: controller_left_front_horse_shoe
+    100038: controller_left_hand
+    100040: controller_right_arm
+    100042: controller_right_behind_horse_leg
+    100044: controller_right_behind_horse_shoe
+    100046: controller_right_foot
+    100048: controller_right_front_horse_leg
+    100050: controller_right_front_horse_shoe
+    100052: controller_right_hand
+    100054: controller_tail1
+    100056: controller_tail2
+    100058: controller_tail3
+    100060: front_side_bone
+    100062: front_side_bone_end
+    100064: hand_bone
+    100066: hand_bone 1
+    100068: hand_bone_end
+    100070: hand_bone_end 1
+    100072: head_bone
+    100074: head_bone_end
+    100076: horse
+    100078: horse_body_bone1
+    100080: horse_body_bone2
+    100082: horse_body_bone3
+    100084: horse_head_bone
+    100086: horse_head_bone_end
+    100088: horse_main_bone
+    100090: horse_neck_bone
+    100092: IK_behind_side
+    100094: IK_body
+    100096: IK_front_side
+    100098: IK_head
+    100100: IK_horse_head
+    100102: IK_left_arm
+    100104: IK_left_behind_horse_leg
+    100106: IK_left_behind_horse_shoe
+    100108: IK_left_foot
+    100110: IK_left_front_horse_leg
+    100112: IK_left_front_horse_shoe
+    100114: IK_left_side
+    100116: IK_right_arm
+    100118: IK_right_behind_horse_leg
+    100120: IK_right_behind_horse_shoe
+    100122: IK_right_foot
+    100124: IK_right_front_horse_leg
+    100126: IK_right_front_horse_shoe
+    100128: IK_right_hand
+    100130: IK_right_side
+    100132: IK_tail
+    100134: //RootNode
+    100136: left_behind_horse_leg_bone1
+    100138: left_behind_horse_leg_bone2
+    100140: left_behind_horse_leg_bone3
+    100142: left_behind_horse_shoe_bone
+    100144: left_behind_horse_shoe_bone_end
+    100146: left_foot_bone
+    100148: left_foot_bone_end
+    100150: left_front_horse_leg_bone1
+    100152: left_front_horse_leg_bone2
+    100154: left_front_horse_shoe_bone
+    100156: left_front_horse_shoe_bone_end
+    100158: left_leg_bone1
+    100160: left_leg_bone2
+    100162: left_side_bone
+    100164: left_side_bone_end
+    100166: Line_tail
+    100168: right_behind_horse_leg_bone1
+    100170: right_behind_horse_leg_bone2
+    100172: right_behind_horse_leg_bone3
+    100174: right_behind_horse_shoe_bone
+    100176: right_behind_horse_shoe_bone_end
+    100178: right_foot_bone
+    100180: right_foot_bone_end
+    100182: right_front_horse_leg_bone1
+    100184: right_front_horse_leg_bone2
+    100186: right_front_horse_shoe_bone
+    100188: right_front_horse_shoe_bone_end
+    100190: right_leg_bone1
+    100192: right_leg_bone2
+    100194: right_side_bone
+    100196: right_side_bone_end
+    100198: shield
+    100200: shoulder_left_bone
+    100202: shoulder_right_bone
+    100204: sword
+    100206: tail_bone1
+    100208: tail_bone2
+    100210: tail_bone3
+    100212: tail_bone4
+    100214: tail_bone5
+    100216: tail_bone6
+    100218: tail_bone7
+    100220: tail_bone_end
+    400000: arm_left_bone1
+    400002: arm_left_bone2
+    400004: arm_right_bone1
+    400006: arm_right_bone2
+    400008: behind_side_bone
+    400010: behind_side_bone_end
+    400012: body
+    400014: body_bone
+    400016: controller_armor_side
+    400018: controller_body
+    400020: controller_body_dummy
+    400022: controller_head
+    400024: controller_horse
+    400026: controller_horse_head
+    400028: controller_left_behind_horse_leg
+    400030: controller_left_behind_horse_shoe
+    400032: controller_left_foot
+    400034: controller_left_front_horse_leg
+    400036: controller_left_front_horse_shoe
+    400038: controller_left_hand
+    400040: controller_right_arm
+    400042: controller_right_behind_horse_leg
+    400044: controller_right_behind_horse_shoe
+    400046: controller_right_foot
+    400048: controller_right_front_horse_leg
+    400050: controller_right_front_horse_shoe
+    400052: controller_right_hand
+    400054: controller_tail1
+    400056: controller_tail2
+    400058: controller_tail3
+    400060: front_side_bone
+    400062: front_side_bone_end
+    400064: hand_bone
+    400066: hand_bone 1
+    400068: hand_bone_end
+    400070: hand_bone_end 1
+    400072: head_bone
+    400074: head_bone_end
+    400076: horse
+    400078: horse_body_bone1
+    400080: horse_body_bone2
+    400082: horse_body_bone3
+    400084: horse_head_bone
+    400086: horse_head_bone_end
+    400088: horse_main_bone
+    400090: horse_neck_bone
+    400092: IK_behind_side
+    400094: IK_body
+    400096: IK_front_side
+    400098: IK_head
+    400100: IK_horse_head
+    400102: IK_left_arm
+    400104: IK_left_behind_horse_leg
+    400106: IK_left_behind_horse_shoe
+    400108: IK_left_foot
+    400110: IK_left_front_horse_leg
+    400112: IK_left_front_horse_shoe
+    400114: IK_left_side
+    400116: IK_right_arm
+    400118: IK_right_behind_horse_leg
+    400120: IK_right_behind_horse_shoe
+    400122: IK_right_foot
+    400124: IK_right_front_horse_leg
+    400126: IK_right_front_horse_shoe
+    400128: IK_right_hand
+    400130: IK_right_side
+    400132: IK_tail
+    400134: //RootNode
+    400136: left_behind_horse_leg_bone1
+    400138: left_behind_horse_leg_bone2
+    400140: left_behind_horse_leg_bone3
+    400142: left_behind_horse_shoe_bone
+    400144: left_behind_horse_shoe_bone_end
+    400146: left_foot_bone
+    400148: left_foot_bone_end
+    400150: left_front_horse_leg_bone1
+    400152: left_front_horse_leg_bone2
+    400154: left_front_horse_shoe_bone
+    400156: left_front_horse_shoe_bone_end
+    400158: left_leg_bone1
+    400160: left_leg_bone2
+    400162: left_side_bone
+    400164: left_side_bone_end
+    400166: Line_tail
+    400168: right_behind_horse_leg_bone1
+    400170: right_behind_horse_leg_bone2
+    400172: right_behind_horse_leg_bone3
+    400174: right_behind_horse_shoe_bone
+    400176: right_behind_horse_shoe_bone_end
+    400178: right_foot_bone
+    400180: right_foot_bone_end
+    400182: right_front_horse_leg_bone1
+    400184: right_front_horse_leg_bone2
+    400186: right_front_horse_shoe_bone
+    400188: right_front_horse_shoe_bone_end
+    400190: right_leg_bone1
+    400192: right_leg_bone2
+    400194: right_side_bone
+    400196: right_side_bone_end
+    400198: shield
+    400200: shoulder_left_bone
+    400202: shoulder_right_bone
+    400204: sword
+    400206: tail_bone1
+    400208: tail_bone2
+    400210: tail_bone3
+    400212: tail_bone4
+    400214: tail_bone5
+    400216: tail_bone6
+    400218: tail_bone7
+    400220: tail_bone_end
+    2300000: controller_armor_side
+    2300002: controller_body
+    2300004: controller_head
+    2300006: controller_horse_head
+    2300008: controller_left_behind_horse_leg
+    2300010: controller_left_behind_horse_shoe
+    2300012: controller_left_front_horse_leg
+    2300014: controller_left_front_horse_shoe
+    2300016: controller_right_behind_horse_leg
+    2300018: controller_right_behind_horse_shoe
+    2300020: controller_right_front_horse_leg
+    2300022: controller_right_front_horse_shoe
+    2300024: shield
+    2300026: sword
+    3300000: controller_armor_side
+    3300002: controller_body
+    3300004: controller_head
+    3300006: controller_horse_head
+    3300008: controller_left_behind_horse_leg
+    3300010: controller_left_behind_horse_shoe
+    3300012: controller_left_front_horse_leg
+    3300014: controller_left_front_horse_shoe
+    3300016: controller_right_behind_horse_leg
+    3300018: controller_right_behind_horse_shoe
+    3300020: controller_right_front_horse_leg
+    3300022: controller_right_front_horse_shoe
+    3300024: shield
+    3300026: sword
+    4300000: horse
+    4300002: controller_right_front_horse_leg
+    4300004: controller_right_front_horse_shoe
+    4300006: controller_left_front_horse_leg
+    4300008: controller_left_front_horse_shoe
+    4300010: controller_horse_head
+    4300012: controller_right_behind_horse_leg
+    4300014: controller_right_behind_horse_shoe
+    4300016: controller_left_behind_horse_leg
+    4300018: controller_left_behind_horse_shoe
+    4300020: body
+    4300022: shield
+    4300024: sword
+    4300026: controller_armor_side
+    4300028: controller_body
+    4300030: controller_head
+    7400000: Idle
+    7400002: Move
+    7400004: Hit
+    7400006: Injured
+    9500000: //RootNode
+    13700000: body
+    13700002: horse
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: controller_horse
+        weight: 1
+      - path: controller_horse/controller_body_dummy
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone/behind_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone/head_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone/hand_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/shield
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/hand_bone_end 1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/sword
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_armor_side
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_head
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_left_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_left_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_right_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone/front_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone/left_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone/left_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone/right_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone/right_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_tail1
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2/controller_tail3
+        weight: 1
+      - path: horse
+        weight: 1
+      - path: horse_main_bone
+        weight: 1
+      - path: horse_main_bone/body
+        weight: 1
+      - path: horse_main_bone/controller_horse_head
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg/controller_left_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg/controller_left_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg/controller_right_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg/controller_right_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone/left_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone/right_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone/horse_head_bone_end
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone/left_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone/right_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/tail_bone1
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7/tail_bone_end
+        weight: 1
+      - path: IK_behind_side
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_front_side
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_horse_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_behind_horse_leg
+        weight: 1
+      - path: IK_left_behind_horse_shoe
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_front_horse_leg
+        weight: 1
+      - path: IK_left_front_horse_shoe
+        weight: 1
+      - path: IK_left_side
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_behind_horse_leg
+        weight: 1
+      - path: IK_right_behind_horse_shoe
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_front_horse_leg
+        weight: 1
+      - path: IK_right_front_horse_shoe
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_side
+        weight: 1
+      - path: IK_tail
+        weight: 1
+      - path: Line_tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Move
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: controller_horse
+        weight: 1
+      - path: controller_horse/controller_body_dummy
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone/behind_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone/head_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone/hand_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/shield
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/hand_bone_end 1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/sword
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_armor_side
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_head
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_left_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_left_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_right_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone/front_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone/left_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone/left_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone/right_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone/right_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_tail1
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2/controller_tail3
+        weight: 1
+      - path: horse
+        weight: 1
+      - path: horse_main_bone
+        weight: 1
+      - path: horse_main_bone/body
+        weight: 1
+      - path: horse_main_bone/controller_horse_head
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg/controller_left_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg/controller_left_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg/controller_right_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg/controller_right_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone/left_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone/right_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone/horse_head_bone_end
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone/left_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone/right_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/tail_bone1
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7/tail_bone_end
+        weight: 1
+      - path: IK_behind_side
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_front_side
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_horse_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_behind_horse_leg
+        weight: 1
+      - path: IK_left_behind_horse_shoe
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_front_horse_leg
+        weight: 1
+      - path: IK_left_front_horse_shoe
+        weight: 1
+      - path: IK_left_side
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_behind_horse_leg
+        weight: 1
+      - path: IK_right_behind_horse_shoe
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_front_horse_leg
+        weight: 1
+      - path: IK_right_front_horse_shoe
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_side
+        weight: 1
+      - path: IK_tail
+        weight: 1
+      - path: Line_tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: controller_horse
+        weight: 1
+      - path: controller_horse/controller_body_dummy
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone/behind_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone/head_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone/hand_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/shield
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/hand_bone_end 1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/sword
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_armor_side
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_head
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_left_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_left_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_right_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone/front_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone/left_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone/left_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone/right_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone/right_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_tail1
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2/controller_tail3
+        weight: 1
+      - path: horse
+        weight: 1
+      - path: horse_main_bone
+        weight: 1
+      - path: horse_main_bone/body
+        weight: 1
+      - path: horse_main_bone/controller_horse_head
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg/controller_left_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg/controller_left_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg/controller_right_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg/controller_right_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone/left_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone/right_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone/horse_head_bone_end
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone/left_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone/right_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/tail_bone1
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7/tail_bone_end
+        weight: 1
+      - path: IK_behind_side
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_front_side
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_horse_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_behind_horse_leg
+        weight: 1
+      - path: IK_left_behind_horse_shoe
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_front_horse_leg
+        weight: 1
+      - path: IK_left_front_horse_shoe
+        weight: 1
+      - path: IK_left_side
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_behind_horse_leg
+        weight: 1
+      - path: IK_right_behind_horse_shoe
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_front_horse_leg
+        weight: 1
+      - path: IK_right_front_horse_shoe
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_side
+        weight: 1
+      - path: IK_tail
+        weight: 1
+      - path: Line_tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Injured
+      takeName: Take 001
+      firstFrame: 237
+      lastFrame: 265
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: controller_horse
+        weight: 1
+      - path: controller_horse/controller_body_dummy
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/behind_side_bone/behind_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/head_bone/head_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/hand_bone/hand_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_left_bone/arm_left_bone1/arm_left_bone2/shield
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/hand_bone_end 1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/body_bone/shoulder_right_bone/arm_right_bone1/arm_right_bone2/hand_bone
+          1/sword
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_armor_side
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_head
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_left_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_body/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_left_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/controller_right_foot
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/front_side_bone/front_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_leg_bone1/left_leg_bone2/left_foot_bone/left_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/left_side_bone/left_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_leg_bone1/right_leg_bone2/right_foot_bone/right_foot_bone_end
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone
+        weight: 1
+      - path: controller_horse/controller_body_dummy/right_side_bone/right_side_bone_end
+        weight: 1
+      - path: controller_horse/controller_tail1
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2
+        weight: 1
+      - path: controller_horse/controller_tail1/controller_tail2/controller_tail3
+        weight: 1
+      - path: horse
+        weight: 1
+      - path: horse_main_bone
+        weight: 1
+      - path: horse_main_bone/body
+        weight: 1
+      - path: horse_main_bone/controller_horse_head
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_behind_horse_leg/controller_left_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_left_front_horse_leg/controller_left_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_behind_horse_leg/controller_right_behind_horse_shoe
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg
+        weight: 1
+      - path: horse_main_bone/controller_right_front_horse_leg/controller_right_front_horse_shoe
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/left_front_horse_leg_bone1/left_front_horse_leg_bone2/left_front_horse_shoe_bone/left_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_body_bone1/right_front_horse_leg_bone1/right_front_horse_leg_bone2/right_front_horse_shoe_bone/right_front_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone
+        weight: 1
+      - path: horse_main_bone/horse_body_bone3/horse_body_bone2/horse_neck_bone/horse_head_bone/horse_head_bone_end
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/left_behind_horse_leg_bone1/left_behind_horse_leg_bone2/left_behind_horse_leg_bone3/left_behind_horse_shoe_bone/left_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone
+        weight: 1
+      - path: horse_main_bone/right_behind_horse_leg_bone1/right_behind_horse_leg_bone2/right_behind_horse_leg_bone3/right_behind_horse_shoe_bone/right_behind_horse_shoe_bone_end
+        weight: 1
+      - path: horse_main_bone/tail_bone1
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7
+        weight: 1
+      - path: horse_main_bone/tail_bone1/tail_bone2/tail_bone3/tail_bone4/tail_bone5/tail_bone6/tail_bone7/tail_bone_end
+        weight: 1
+      - path: IK_behind_side
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_front_side
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_horse_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_behind_horse_leg
+        weight: 1
+      - path: IK_left_behind_horse_shoe
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_front_horse_leg
+        weight: 1
+      - path: IK_left_front_horse_shoe
+        weight: 1
+      - path: IK_left_side
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_behind_horse_leg
+        weight: 1
+      - path: IK_right_behind_horse_shoe
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_front_horse_leg
+        weight: 1
+      - path: IK_right_front_horse_shoe
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_side
+        weight: 1
+      - path: IK_tail
+        weight: 1
+      - path: Line_tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

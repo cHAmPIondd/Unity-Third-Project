@@ -1,0 +1,1398 @@
+fileFormatVersion: 2
+guid: 24c60eba0db54b34d89038ca65b92707
+timeCreated: 1491133292
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bamboo_hat
+    100002: body
+    100004: Bone001
+    100006: Bone005
+    100008: Bone006
+    100010: Bone007
+    100012: Bone008
+    100014: Bone009
+    100016: Bone010
+    100018: Bone011
+    100020: Bone012
+    100022: Bone013
+    100024: Bone014
+    100026: Bone026
+    100028: Bone027
+    100030: Bone028
+    100032: Bone029
+    100034: Bone030
+    100036: Bone031
+    100038: Bone032
+    100040: Bone033
+    100042: Bone034
+    100044: Bone035
+    100046: Bone036
+    100048: Bone048
+    100050: Bone049
+    100052: Bone050
+    100054: Bone051
+    100056: Bone052
+    100058: Bone053
+    100060: Bone054
+    100062: Bone055
+    100064: Bone056
+    100066: Bone057
+    100068: Bone058
+    100070: Bone059
+    100072: Bone060
+    100074: Bone061
+    100076: Bone_body
+    100078: Bone_head
+    100080: Bone_head_end
+    100082: Bone_left_arm1
+    100084: Bone_left_arm2
+    100086: Bone_left_foot
+    100088: Bone_left_foot_end
+    100090: Bone_left_hand
+    100092: Bone_left_hand_end
+    100094: Bone_left_leg1
+    100096: Bone_left_leg2
+    100098: Bone_left_shoulder
+    100100: Bone_main
+    100102: Bone_right_arm1
+    100104: Bone_right_arm2
+    100106: Bone_right_foot
+    100108: Bone_right_foot_end
+    100110: Bone_right_hand
+    100112: Bone_right_hand_end
+    100114: Bone_right_leg1
+    100116: Bone_right_leg2
+    100118: Bone_right_shoulder
+    100120: cloak
+    100122: controller_body
+    100124: controller_cloak1-1
+    100126: controller_cloak1-2
+    100128: controller_cloak1-3
+    100130: controller_cloak1-4
+    100132: controller_cloak1-5
+    100134: controller_cloak1-6
+    100136: controller_cloak1-7
+    100138: controller_cloak1-8
+    100140: controller_cloak2-1
+    100142: controller_cloak2-2
+    100144: controller_cloak2-3
+    100146: controller_cloak2-4
+    100148: controller_cloak2-5
+    100150: controller_cloak2-6
+    100152: controller_cloak2-7
+    100154: controller_cloak2-8
+    100156: controller_cloak3-1
+    100158: controller_cloak3-2
+    100160: controller_cloak3-3
+    100162: controller_cloak3-4
+    100164: controller_cloak3-5
+    100166: controller_cloak3-6
+    100168: controller_cloak3-7
+    100170: controller_cloak3-8
+    100172: controller_cloak_shoulder
+    100174: controller_head
+    100176: controller_left_arm
+    100178: controller_left_foot
+    100180: controller_left_hand
+    100182: controller_left_leg
+    100184: controller_left_shoulder
+    100186: controller_main
+    100188: controller_right_arm
+    100190: controller_right_foot
+    100192: controller_right_hand
+    100194: controller_right_leg
+    100196: controller_right_shoulder
+    100198: IK Chain002
+    100200: IK Chain003
+    100202: IK Chain004
+    100204: IK_body
+    100206: IK_cloak_shoulder
+    100208: IK_head
+    100210: IK_left_arm
+    100212: IK_left_foot
+    100214: IK_left_hand
+    100216: IK_left_leg
+    100218: IK_left_shoulder
+    100220: IK_right_arm
+    100222: IK_right_foot
+    100224: IK_right_hand
+    100226: IK_right_leg
+    100228: IK_right_shoulder
+    100230: Line001
+    100232: Line002
+    100234: Line003
+    100236: sword
+    100238: //RootNode
+    400000: bamboo_hat
+    400002: body
+    400004: Bone001
+    400006: Bone005
+    400008: Bone006
+    400010: Bone007
+    400012: Bone008
+    400014: Bone009
+    400016: Bone010
+    400018: Bone011
+    400020: Bone012
+    400022: Bone013
+    400024: Bone014
+    400026: Bone026
+    400028: Bone027
+    400030: Bone028
+    400032: Bone029
+    400034: Bone030
+    400036: Bone031
+    400038: Bone032
+    400040: Bone033
+    400042: Bone034
+    400044: Bone035
+    400046: Bone036
+    400048: Bone048
+    400050: Bone049
+    400052: Bone050
+    400054: Bone051
+    400056: Bone052
+    400058: Bone053
+    400060: Bone054
+    400062: Bone055
+    400064: Bone056
+    400066: Bone057
+    400068: Bone058
+    400070: Bone059
+    400072: Bone060
+    400074: Bone061
+    400076: Bone_body
+    400078: Bone_head
+    400080: Bone_head_end
+    400082: Bone_left_arm1
+    400084: Bone_left_arm2
+    400086: Bone_left_foot
+    400088: Bone_left_foot_end
+    400090: Bone_left_hand
+    400092: Bone_left_hand_end
+    400094: Bone_left_leg1
+    400096: Bone_left_leg2
+    400098: Bone_left_shoulder
+    400100: Bone_main
+    400102: Bone_right_arm1
+    400104: Bone_right_arm2
+    400106: Bone_right_foot
+    400108: Bone_right_foot_end
+    400110: Bone_right_hand
+    400112: Bone_right_hand_end
+    400114: Bone_right_leg1
+    400116: Bone_right_leg2
+    400118: Bone_right_shoulder
+    400120: cloak
+    400122: controller_body
+    400124: controller_cloak1-1
+    400126: controller_cloak1-2
+    400128: controller_cloak1-3
+    400130: controller_cloak1-4
+    400132: controller_cloak1-5
+    400134: controller_cloak1-6
+    400136: controller_cloak1-7
+    400138: controller_cloak1-8
+    400140: controller_cloak2-1
+    400142: controller_cloak2-2
+    400144: controller_cloak2-3
+    400146: controller_cloak2-4
+    400148: controller_cloak2-5
+    400150: controller_cloak2-6
+    400152: controller_cloak2-7
+    400154: controller_cloak2-8
+    400156: controller_cloak3-1
+    400158: controller_cloak3-2
+    400160: controller_cloak3-3
+    400162: controller_cloak3-4
+    400164: controller_cloak3-5
+    400166: controller_cloak3-6
+    400168: controller_cloak3-7
+    400170: controller_cloak3-8
+    400172: controller_cloak_shoulder
+    400174: controller_head
+    400176: controller_left_arm
+    400178: controller_left_foot
+    400180: controller_left_hand
+    400182: controller_left_leg
+    400184: controller_left_shoulder
+    400186: controller_main
+    400188: controller_right_arm
+    400190: controller_right_foot
+    400192: controller_right_hand
+    400194: controller_right_leg
+    400196: controller_right_shoulder
+    400198: IK Chain002
+    400200: IK Chain003
+    400202: IK Chain004
+    400204: IK_body
+    400206: IK_cloak_shoulder
+    400208: IK_head
+    400210: IK_left_arm
+    400212: IK_left_foot
+    400214: IK_left_hand
+    400216: IK_left_leg
+    400218: IK_left_shoulder
+    400220: IK_right_arm
+    400222: IK_right_foot
+    400224: IK_right_hand
+    400226: IK_right_leg
+    400228: IK_right_shoulder
+    400230: Line001
+    400232: Line002
+    400234: Line003
+    400236: sword
+    400238: //RootNode
+    2300000: bamboo_hat
+    2300002: sword
+    3300000: bamboo_hat
+    3300002: sword
+    4300000: body
+    4300002: bamboo_hat
+    4300004: sword
+    4300006: cloak
+    7400000: Idle
+    7400002: Move
+    7400004: Hit
+    7400006: Injured
+    9500000: //RootNode
+    13700000: body
+    13700002: cloak
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Bone005
+        weight: 1
+      - path: Bone005/Bone006
+        weight: 1
+      - path: Bone005/Bone006/Bone007
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone026
+        weight: 1
+      - path: Bone026/Bone027
+        weight: 1
+      - path: Bone026/Bone027/Bone028
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035/Bone036
+        weight: 1
+      - path: Bone048
+        weight: 1
+      - path: Bone048/Bone049
+        weight: 1
+      - path: Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057/Bone058
+        weight: 1
+      - path: controller_main
+        weight: 1
+      - path: controller_main/Bone_main
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/bamboo_hat
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/Bone_head_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand/Bone_left_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/Bone_right_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/sword
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot/Bone_left_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot/Bone_right_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/controller_body
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060/Bone061
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/cloak
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_head
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_cloak_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm/controller_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_main/controller_left_leg
+        weight: 1
+      - path: controller_main/controller_left_leg/controller_left_foot
+        weight: 1
+      - path: controller_main/controller_right_leg
+        weight: 1
+      - path: controller_main/controller_right_leg/controller_right_foot
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_cloak_shoulder
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_hand
+        weight: 1
+      - path: IK_left_leg
+        weight: 1
+      - path: IK_left_shoulder
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_leg
+        weight: 1
+      - path: IK_right_shoulder
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Move
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Bone005
+        weight: 1
+      - path: Bone005/Bone006
+        weight: 1
+      - path: Bone005/Bone006/Bone007
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone026
+        weight: 1
+      - path: Bone026/Bone027
+        weight: 1
+      - path: Bone026/Bone027/Bone028
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035/Bone036
+        weight: 1
+      - path: Bone048
+        weight: 1
+      - path: Bone048/Bone049
+        weight: 1
+      - path: Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057/Bone058
+        weight: 1
+      - path: controller_main
+        weight: 1
+      - path: controller_main/Bone_main
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/bamboo_hat
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/Bone_head_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand/Bone_left_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/Bone_right_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/sword
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot/Bone_left_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot/Bone_right_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/controller_body
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060/Bone061
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/cloak
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_head
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_cloak_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm/controller_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_main/controller_left_leg
+        weight: 1
+      - path: controller_main/controller_left_leg/controller_left_foot
+        weight: 1
+      - path: controller_main/controller_right_leg
+        weight: 1
+      - path: controller_main/controller_right_leg/controller_right_foot
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_cloak_shoulder
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_hand
+        weight: 1
+      - path: IK_left_leg
+        weight: 1
+      - path: IK_left_shoulder
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_leg
+        weight: 1
+      - path: IK_right_shoulder
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 195
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Bone005
+        weight: 1
+      - path: Bone005/Bone006
+        weight: 1
+      - path: Bone005/Bone006/Bone007
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone026
+        weight: 1
+      - path: Bone026/Bone027
+        weight: 1
+      - path: Bone026/Bone027/Bone028
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035/Bone036
+        weight: 1
+      - path: Bone048
+        weight: 1
+      - path: Bone048/Bone049
+        weight: 1
+      - path: Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057/Bone058
+        weight: 1
+      - path: controller_main
+        weight: 1
+      - path: controller_main/Bone_main
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/bamboo_hat
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/Bone_head_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand/Bone_left_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/Bone_right_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/sword
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot/Bone_left_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot/Bone_right_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/controller_body
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060/Bone061
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/cloak
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_head
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_cloak_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm/controller_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_main/controller_left_leg
+        weight: 1
+      - path: controller_main/controller_left_leg/controller_left_foot
+        weight: 1
+      - path: controller_main/controller_right_leg
+        weight: 1
+      - path: controller_main/controller_right_leg/controller_right_foot
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_cloak_shoulder
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_hand
+        weight: 1
+      - path: IK_left_leg
+        weight: 1
+      - path: IK_left_shoulder
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_leg
+        weight: 1
+      - path: IK_right_shoulder
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Injured
+      takeName: Take 001
+      firstFrame: 225
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Bone005
+        weight: 1
+      - path: Bone005/Bone006
+        weight: 1
+      - path: Bone005/Bone006/Bone007
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone026
+        weight: 1
+      - path: Bone026/Bone027
+        weight: 1
+      - path: Bone026/Bone027/Bone028
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035
+        weight: 1
+      - path: Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033/Bone034/Bone035/Bone036
+        weight: 1
+      - path: Bone048
+        weight: 1
+      - path: Bone048/Bone049
+        weight: 1
+      - path: Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057
+        weight: 1
+      - path: Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054/Bone055/Bone056/Bone057/Bone058
+        weight: 1
+      - path: controller_main
+        weight: 1
+      - path: controller_main/Bone_main
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/bamboo_hat
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_head/Bone_head_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_left_shoulder/Bone_left_arm1/Bone_left_arm2/Bone_left_hand/Bone_left_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/Bone_right_hand_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_body/Bone_right_shoulder/Bone_right_arm1/Bone_right_arm2/Bone_right_hand/sword
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_left_leg1/Bone_left_leg2/Bone_left_foot/Bone_left_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot
+        weight: 1
+      - path: controller_main/Bone_main/Bone_right_leg1/Bone_right_leg2/Bone_right_foot/Bone_right_foot_end
+        weight: 1
+      - path: controller_main/Bone_main/controller_body
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/Bone001/Bone059/Bone060/Bone061
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/cloak
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak1-1/controller_cloak1-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak2-1/controller_cloak2-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-2
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-3
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-4
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-5
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-6
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-7
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_cloak3-1/controller_cloak3-8
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_head
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_cloak_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_left_shoulder/controller_left_arm/controller_left_hand
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm
+        weight: 1
+      - path: controller_main/Bone_main/controller_body/controller_right_shoulder/controller_right_arm/controller_right_hand
+        weight: 1
+      - path: controller_main/controller_left_leg
+        weight: 1
+      - path: controller_main/controller_left_leg/controller_left_foot
+        weight: 1
+      - path: controller_main/controller_right_leg
+        weight: 1
+      - path: controller_main/controller_right_leg/controller_right_foot
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK_body
+        weight: 1
+      - path: IK_cloak_shoulder
+        weight: 1
+      - path: IK_head
+        weight: 1
+      - path: IK_left_arm
+        weight: 1
+      - path: IK_left_foot
+        weight: 1
+      - path: IK_left_hand
+        weight: 1
+      - path: IK_left_leg
+        weight: 1
+      - path: IK_left_shoulder
+        weight: 1
+      - path: IK_right_arm
+        weight: 1
+      - path: IK_right_foot
+        weight: 1
+      - path: IK_right_hand
+        weight: 1
+      - path: IK_right_leg
+        weight: 1
+      - path: IK_right_shoulder
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
